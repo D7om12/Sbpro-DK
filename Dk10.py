@@ -22,54 +22,54 @@ from googletrans import Translator
 import youtube_dl
 #import pyimgflip
 
-cl = LineClient(authToken="EAJ6au8oH7hKqexrXD8e.+r+jAIdxZWQoBO38ex8YVG.3JknVh70P6IXhj6PHqoR95FR6qvz/qCVVPk5Gs496t4=")
+cl = LineClient(authToken="EBzShvWj4MoSkeqo82B0.KDxryEctushMixYB2tqq8a.xPLTKDeZQbwAXY3OdoZnJjhhrKw3E4syZWJwVZ55dq0=")
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken="EAguf83MO8CsVeJTIqE7.6Sq876pwcqONhXi+E6YcnW.dsvwy/accVpUMLHIqZ+GIRf1B4FPPIE9aFSvK4VEi0Y=")
+ki = LineClient(authToken="EBkGgurwoW4WQvSqxlxf.7ejwPz7hhPjfA23WJ1YOZW.fx10hLaeW6/sXQlt0aiP8JbWQel9yFaPeZGyrMFZns0=")
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kk = LineClient(authToken="EAqK4BUaVuksZexq20s5.8OY1iJbE2cs3otqwBUM9rq.83TlKYF4RRqlp3aBSrjNrETFflWm6An3J2CNWJbgn8M=")
+kk = LineClient(authToken="EBSsRaNhOgneq9CGcKH7.XyqRl2wN7JgmhVtSwdySHW.Ti73eHNPlbsuicaT+s0gP9njoJxT2QJhzoRUz4ee6Kg=")
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kc = LineClient(authToken="EAPQMbBwfNNIN799FGKb.x6JXUNwTo2ABeWsGFXEkYW.W7rWxWKm/oJsiJfGjoJnw3WCus33q4FohdFwGjNJ4QM=")
+kc = LineClient(authToken="EB1z3SWgE9ygidoVrvnf./vSiiTuUuLcD+1Saj5ZuNW.ngnUpGkvn5Xb/j6mroIOpkgElMA+RsIeiuaHnKCLPTw=")
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kb = LineClient(authToken="EAPQMbBwfNNIN799FGKb.x6JXUNwTo2ABeWsGFXEkYW.W7rWxWKm/oJsiJfGjoJnw3WCus33q4FohdFwGjNJ4QM=")
+kb = LineClient(authToken="EB123TrZnInzdgImEAj4.b7JTGnuMPARaE3cJcJZ3Ha.5saKCq+gOQTU9lhdGVSbC6aYCSKlEvRO4aIkSnOBJAs=")
 kb.log("Auth Token : " + str(kb.authToken))
 kb.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kd = LineClient(authToken="EAZZOe7HmuNA6qgbYm4f.iXDW3NqeZe2QwsaB0p/2tW.tRzxpuZLKrSfpqf02qvlDmofsOuNc5/7mhHnIj6e3a8=")
+kd = LineClient(authToken="EBco3RbvcEAzan8mj319.5rCPn1fJmkDjbG2Uwg9E/q.+cIhr0qzC3egbUVMk5KT/YEu91qIDezoj3hfwF6e2CI=")
 kd.log("Auth Token : " + str(kd.authToken))
 kd.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ke = LineClient(authToken="EAiQDK8ntiQRrTspS6t7.ysELs5+0aaJPhSRVRuIgzW.Yl4G2Z9eA+5j92eaNLp6YL6mGoSQWyGZ3nzEC8Jy3LI=")
+ke = LineClient(authToken="EBASXOzYr5Lkc2zWIVce.XpLYSQ+SXsk7sgv1s+Ml3G.GCcJClFKfy4ZSFTheNzAUqS9hzYB82C59MAcOW53kw0=")
 ke.log("Auth Token : " + str(ke.authToken))
 ke.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kf = LineClient(authToken="EAiQDK8ntiQRrTspS6t7.ysELs5+0aaJPhSRVRuIgzW.Yl4G2Z9eA+5j92eaNLp6YL6mGoSQWyGZ3nzEC8Jy3LI=")
+kf = LineClient(authToken="EBW5eVsrB0hr8lrCsqCc.FXeH1zqx1Cx5fWaPEzCl+a.8Kfnj1A1yK5PVuKsKdo4XtoOzrRsZ/rdNpZmAN9jQw4=")
 kf.log("Auth Token : " + str(kf.authToken))
 kf.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kj = LineClient(authToken="EAlXBSPeJxrZdU4r1S01.oFAdwbsxdvvicAIEyG/cGq.LrCl7aG0MK/7HKh8M9rJSJMoTdB5UHRkKJdzpKSgDcQ=")
+kj = LineClient(authToken="EBHo8xV0pkbqvbfYayg8.QVXPIKhd0ncZ47k+nVqhAa.EUeDGZLAduwpjAKaiWQic8a2oWUyUXKNUv0olvQ84fg=")
 kj.log("Auth Token : " + str(kj.authToken))
 kj.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-sw = LineClient(authToken="EAlXBSPeJxrZdU4r1S01.oFAdwbsxdvvicAIEyG/cGq.LrCl7aG0MK/7HKh8M9rJSJMoTdB5UHRkKJdzpKSgDcQ=")
+sw = LineClient(authToken="EBvicSehlFqLFmobiCFc.p9istp2Y85W+AzN3vgIF+a.9QDnA3kFebBB6OZLxtzA9oARMb4oqyjDLQANwqJMBRU=")
 sw.log("Auth Token : " + str(sw.authToken))
 sw.log("Channel Access Token : " + str(channel.channelAccessToken))
 print("\nBOT MULAI BERJALAN.......\n")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
-owner = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
-admin = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
-staff = ["ufd1fc96a20d7cf0a8e6e8dfc117f32be"]
+creator = ["u91d5d161e0935121e6217c9bd93410f0"]
+owner = ["u91d5d161e0935121e6217c9bd93410f0"]
+admin = ["u91d5d161e0935121e6217c9bd93410f0"]
+staff = ["u91d5d161e0935121e6217c9bd93410f0"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
@@ -459,7 +459,7 @@ def atend():
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "🔑❂͜͡➣ " + key + " [🔰Ⓓⓚ~ⒷⓄⓣ☯t]\n" + \
+    helpMessage = "🔑❂͜͡➣ " + key + " [🔰❂☞ d7om♪❥☜❂+❂☞ D7om☜❂]\n" + \
                    "🔑❂͜͡➣" + key + "✰DRAGON KILLER✰\n" + \
                   "🔑❂͜͡➣ " + key + "ʜᴇʟᴘ\n" + \
                   "🔑❂͜͡➣ " + key + "ʜᴇʟᴘ1\n" + \
@@ -507,14 +507,14 @@ def help():
                    "🔑❂͜͡➣" + key + "ʀᴇsᴇᴛᴋᴇʏ\n" + \
                   "🔑❂͜͡➣ " + key + "ʀᴇғʀᴇsʜ\n" + \
                   "👮❂͜͡➣ " + key + "Restart\n"+ \
-                  "🔑❂͜͡➣ [[DKBOT-LINE]]"
+                  "🔑❂͜͡➣ [[๑۩ D7om ๑۩-LINE]]"
 
     return helpMessage
 
 def help1():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "🔑❂͜͡➣ " + key + " [🔰Ⓓⓚ~ⒷⓄⓣ☯t]\n" + \
+    helpMessage1 = "🔑❂͜͡➣ " + key + " [🔰❂☞ d7om♪❥☜❂+❂☞ D7om☜❂]\n" + \
                   "🔑❂͜͡➣ " + key + "ᴛᴀɢᴀʟʟ/ɴᴀʜ\n" + \
                   "🔑❂͜͡➣ " + key + "ɢɪɴғᴏ\n" + \
                   "🔑❂͜͡➣ " + key + "ᴏᴘᴇɴ\n" + \
@@ -547,7 +547,7 @@ def help1():
                    "🔑❂͜͡➣ " + key + "ɢɪғᴛ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
                    "🔑❂͜͡➣ " + key + "sᴘᴀᴍ:「ᴍɪᴅ ᴋᴏʀʙᴀɴ」「ᴊᴜᴍʟᴀʜ」\n" + \
                    "「🔑」  ʙʏ: Dzulkifli\n" + \
-                   "  Creator:  line.me/ti/p/~reza.p.i.p"
+                   "  Creator:  line.me/ti/p/~l7o11"
                   
     return helpMessage1
 
@@ -580,7 +580,7 @@ def help2():
                   "「🔑] " + key + "sᴇᴛ ʟᴇᴀᴠᴇ:「ᴛᴇxᴛ」\n" + \
                   "「🔑] " + key + "sᴇᴛ ᴡᴇʟᴄᴏᴍᴇ:「ᴛᴇxᴛ」\n" + \
                   " [🔑DKBOT-LINE]🕸 ⃢   ⟗\n" + \
-                  "🔑Creator:  line.me/ti/p/~reza.p.i.p"
+                  "🔑Creator:  line.me/ti/p/~midox007x"
 
     return helpMessage2
 
@@ -627,7 +627,7 @@ def help3():
                   "「🔑」 " + key + "Get-instagram「User Name」\n" + \
                   "「🔑」 " + key + "Get-date「tgl-bln-thn」\n" + \
                   "⟗   ⃢🕸ʙʏ: Dzulkifli🕸 ⃢   ⟗\n" + \
-                  "  Creator:  line.me/ti/p/~reza.p.i.p"
+                  "  Creator:  line.me/ti/p/~midox007x"
 
     return helpMessage3
 
@@ -4310,12 +4310,12 @@ def bot(op):
                                ki.sendMessage(msg.to,"ASSALAMUALAIKUM")
                                ki.sendMessage(msg.to,"Loha\n"
  "ASSALAMUALAIKUM\n"
-"  ╭━Ⓓ✒Ⓡ✒ⒼⓄ✒Ⓝ✒\n"
+"  ╭━❂☞ D7om☜❂ ❂☞ ڊﻣۨـَ؏ـــهٌۃ•♪❥☜❂✒\n"
 "  ╰╮┏━┳┳┓┏┳┳┓┏┳┳┳┓\n"
 "  ┏┻╋━┻┻┫┣┻┻┫┣┻┻┻┫\n"
-"  ┃HLO▪┃KMI DTANG LGI┃\n"
+"  ┃❂☞ D7om☜❂ ❂☞ ڊﻣۨـَ؏ـــهٌۃ•♪❥☜❂\n"
 "  ┗ⓞⓞ┻┻ⓞ━━ⓞ┻┻ⓞ━╯\n"
-"UNTUK MENGGUSUR\nROOM KALIAN\n"
+"❂☞ D7om☜❂ ❂☞ ڊﻣۨـَ؏ـــهٌۃ•♪❥☜❂"
 "..  (҂`_´)\n"
    " <,︻╦̵̵̿╤━ ҉     ~  •"
 "█۞███████]▄▄▄▄▄▄▃●●\n"
@@ -4364,7 +4364,7 @@ def bot(op):
 		"║╗╣║╠╣║━║║━║╠╣║\n"
 		"╚╩╝╚╝╚╝━╚╝━╚╝╚╝\n"
 		"━━━━━━━━━━━━━━━\n"
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~reza.p.i.p\nhttp://line.me/ti/p/~dkbotline")
+">>>❂☞ D7om☜❂ ❂☞ ڊﻣۨـَ؏ـــهٌۃ•♪❥☜❂>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~l7o11\nhttp://line.me/ti/p/~midox007x")
                                targets = []
                                for g in gs.members:
                                    if _name in g.displayName:
@@ -4630,7 +4630,7 @@ def bot(op):
 		"║╗╣║╠╣║━║║━║╠╣║\n"
 		"╚╩╝╚╝╚╝━╚╝━╚╝╚╝\n"
 		"━━━━━━━━━━━━━━━\n"
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~reza.p.i.p\nhttp://line.me/ti/p/ryansakra_m1")
+">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~l7o11\nhttp://line.me/ti/p/~midox007x")
                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"15996978","STKPKGID":"1416471","STKVER":"1"}, contentType=7)
 
                         elif cmd == "reinvite":
@@ -4766,7 +4766,7 @@ def bot(op):
 "Ⓟⓤⓝⓨⓐ👿━━👿Ⓡⓐⓣⓐ Ⓝⓘ\n" 
 "Ⓜⓐⓗ━👿━")
                                kc.sendMessage(msg.to,
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~reza.p.i.p\nhttp://line.me/ti/p/ryansakra_m1")
+">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~l7o11\nhttp://line.me/ti/p/~midox007x")
                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"24893204","STKPKGID":"1790925","STKVER":"1"}, contentType=7)
                                targets = []
                                for g in gs.members:
@@ -5110,7 +5110,7 @@ def bot(op):
 #===========BOT UPDATE============#
 
 #===========BOT UPDATE============#
-                        elif msg.text in ["Cipok","Tagall","Desah","Emuach","Assalamualaikum","Pagi","Siang","Sore","Malam","Nah","All"]:
+                        elif msg.text in ["🌹","Tagall","♥","🌟","Assalamualaikum","Pagi","Siang","Sore","Malam","Nah","All"]:
                                if wait["selfbot"] == True:
                                 if msg._from in admin:
                                  group = cl.getGroup(msg.to)
@@ -5186,76 +5186,86 @@ def bot(op):
                                sendMention(msg.to, sender, "「 Selfbot Speed 」\n• User ", "")
                                elapsed_time = time.time() - start
                                cl.sendMessage(msg.to, "{} detik".format(str(elapsed_time)))
-                                
+
                         elif cmd == "lurking on":
-                          if wait["selfbot"] == True:
-                            if msg._from in admin:
-                                 tz = pytz.timezone("Asia/Jakarta")
-                                 timeNow = datetime.now(tz=tz)
-                                 Setmain['RAreadPoint'][msg.to] = msg_id
-                                 Setmain['RAreadMember'][msg.to] = {}
-                                 cl.sendText(msg.to, "「 Status Lurking 」\nBerhasil diaktifkan, selanjutnya ketik lurkers\n\n• Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"+"\n• Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d'))
-                            
+                            if wait["selfbot"] == True:
+                                if msg._from in admin:
+                                    tz = pytz.timezone("Asia/Jakarta")
+                                    timeNow = datetime.now(tz=tz)
+                                    Setmain['ARreadPoint'][msg.to] = msg_id
+                                    Setmain['ARreadMember'][msg.to] = {}
+                                    cl.sendText(msg.to,
+                                                "Lurking berhasil diaktifkan\n\nTanggal : " + datetime.strftime(timeNow,
+                                                                                                                '%Y-%m-%d') + "\nJam [ " + datetime.strftime(
+                                                    timeNow, '%H:%M:%S') + " ]")
+
                         elif cmd == "lurking off":
-                          if wait["selfbot"] == True:
-                            if msg._from in admin:
-                                 tz = pytz.timezone("Asia/Jakarta")
-                                 timeNow = datetime.now(tz=tz)
-                                 del Setmain['RAreadPoint'][msg.to]
-                                 del Setmain['RAreadMember'][msg.to]
-                                 cl.sendText(msg.to, "「 Status Lurking 」\nBerhasil dimatikan\n\n• Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"+"\n• Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d'))
-                            
+                            if wait["selfbot"] == True:
+                                if msg._from in admin:
+                                    tz = pytz.timezone("Asia/Jakarta")
+                                    timeNow = datetime.now(tz=tz)
+                                    del Setmain['ARreadPoint'][msg.to]
+                                    del Setmain['ARreadMember'][msg.to]
+                                    cl.sendText(msg.to,
+                                                "Lurking berhasil dinoaktifkan\n\nTanggal : " + datetime.strftime(
+                                                    timeNow, '%Y-%m-%d') + "\nJam [ " + datetime.strftime(timeNow,
+                                                                                                          '%H:%M:%S') + " ]")
+
                         elif cmd == "lurkers":
-                          if wait["selfbot"] == True:
-                           if msg._from in admin:
-                            if msg.to in Setmain['RAreadPoint']:
-                                if Setmain['RAreadMember'][msg.to] != {}:
-                                    aa = []
-                                    for x in Setmain['RAreadMember'][msg.to]:
-                                        aa.append(x)
-                                    try:
-                                        arrData = ""
-                                        textx = "  「 Daftar Member 」    \n\n 「 Total {} Sider 」\n1. ".format(str(len(aa)))
-                                        arr = []
-                                        no = 1
-                                        b = 1
-                                        for i in aa:
-                                            b = b + 1
-                                            end = "\n"
-                                            mention = "@x\n"
-                                            slen = str(len(textx))
-                                            elen = str(len(textx) + len(mention) - 1)
-                                            arrData = {'S':slen, 'E':elen, 'M':i}
-                                            arr.append(arrData)
-                                            tz = pytz.timezone("Asia/Jakarta")
-                                            timeNow = datetime.now(tz=tz)
-                                            textx += mention
-                                            if no < len(aa):
-                                                no += 1
-                                                textx += str(b) + ". "
-                                            else:
-                                                try:
-                                                    no = "[ {} ]".format(str(cl.getGroup(msg.to).name))
-                                                except:
-                                                    no = "  "
-                                        msg.to = msg.to
-                                        msg.text = textx+"\n• Jam [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"+"\n• Tanggal : "+ datetime.strftime(timeNow,'%Y-%m-%d')
-                                        msg.contentMetadata = {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}
-                                        msg.contentType = 0
-                                        cl.sendMessage1(msg)
-                                    except:
-                                        pass
-                                    try:
-                                        del Setmain['RAreadPoint'][msg.to]
-                                        del Setmain['RAreadMember'][msg.to]
-                                    except:
-                                        pass
-                                    Setmain['RAreadPoint'][msg.to] = msg.id
-                                    Setmain['RAreadMember'][msg.to] = {}
+                            if msg._from in admin:
+                                if msg.to in Setmain['ARreadPoint']:
+                                    if Setmain['ARreadMember'][msg.to] != {}:
+                                        aa = []
+                                        for x in Setmain['ARreadMember'][msg.to]:
+                                            aa.append(x)
+                                        try:
+                                            arrData = ""
+                                            textx = "  [ Result {} member ]    \n\n  [ Lurkers ]\n1. ".format(
+                                                str(len(aa)))
+                                            arr = []
+                                            no = 1
+                                            b = 1
+                                            for i in aa:
+                                                b = b + 1
+                                                end = "\n"
+                                                mention = "@x\n"
+                                                slen = str(len(textx))
+                                                elen = str(len(textx) + len(mention) - 1)
+                                                arrData = {'S': slen, 'E': elen, 'M': i}
+                                                arr.append(arrData)
+                                                tz = pytz.timezone("Asia/Jakarta")
+                                                timeNow = datetime.now(tz=tz)
+                                                textx += mention
+                                                if no < len(aa):
+                                                    no += 1
+                                                    textx += str(b) + ". "
+                                                else:
+                                                    try:
+                                                        no = "[ {} ]".format(str(cl.getGroup(msg.to).name))
+                                                    except:
+                                                        no = "  "
+                                            msg.to = msg.to
+                                            msg.text = textx + "\nTanggal : " + datetime.strftime(timeNow,
+                                                                                                  '%Y-%m-%d') + "\nJam [ " + datetime.strftime(
+                                                timeNow, '%H:%M:%S') + " ]"
+                                            msg.contentMetadata = {
+                                                'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}
+                                            msg.contentType = 0
+                                            cl.sendMessage1(msg)
+                                        except:
+                                            pass
+                                        try:
+                                            del Setmain['ARreadPoint'][msg.to]
+                                            del Setmain['ARreadMember'][msg.to]
+                                        except:
+                                            pass
+                                        Setmain['ARreadPoint'][msg.to] = msg.id
+                                        Setmain['ARreadMember'][msg.to] = {}
+                                    else:
+                                        cl.sendText(msg.to, "User kosong...")
                                 else:
-                                    cl.sendText(msg.to, "User kosong...")
-                            else:
-                                cl.sendText(msg.to, "Ketik lurking on dulu")
+                                    cl.sendText(msg.to, "Ketik lurking on dulu")
+
 
                         elif cmd == "sider on":
                           if wait["selfbot"] == True:
@@ -6907,7 +6917,7 @@ def bot(op):
 		"║╗╣║╠╣║━║║━║╠╣║\n"
 		"╚╩╝╚╝╚╝━╚╝━╚╝╚╝\n"
 		"━━━━━━━━━━━━━━━\n"
-">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~reza.p.i.p\nhttp://line.me/ti/p/ryansakra_m1")
+">>>Ⓑⓨⓔ_Ⓑⓨⓔ ⒼⒸ Ⓛⓐⓚⓝⓐⓣ>><\nⒹⓝⓓⓐⓜ Ⓒⓐⓡⓘ Ⓚⓜⓘ\n<<<<<<<<<>>\nhttp://line.me/ti/p/~l7o11\nhttp://line.me/ti/p/~midox007x")
                                cl.sendMessage(msg.to, None, contentMetadata={"STKID":"15996978","STKPKGID":"1416471","STKVER":"1"}, contentType=7)
 
                         elif cmd == "botdk-bot" or cmd == "botdkbot":
